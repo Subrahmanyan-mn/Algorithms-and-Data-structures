@@ -1,4 +1,4 @@
-# BST
+# Binary search tree
 
 Subrahmanyan. M N : BDA :201046007
 
