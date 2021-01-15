@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
-#include "../Headers/heap.h"
+#include "../heap.h"
 
 static void _swap_(int32_t *num1, int32_t *num2){
   int32_t temp;
@@ -79,29 +79,6 @@ uint32_t heap_size(Heap *heap){
    return heap->size;
 }
 
-// Heap* heap_insert(Heap *heap, int32_t key){
-//    assert(heap != NULL && heap->size > 0);
-//    heap->data[++heap->size] = key;
-   
-//    // O(nlogn)
-//    //for (uint32_t idx = heap->size / 2; idx > 0; --idx){
-//    //   _heapify_(heap->data, heap->size, idx);
-//    //}
-
-//    // O(logn)
-//    for(int32_t idx = heap->size; idx > 1; idx = idx / 2){
-//        if(heap->data[idx] < heap->data[idx / 2]){
-//           break;
-//        } else {
-//           _swap_(&heap->data[idx], &heap->data[idx / 2]);
-//        }
-//    }
-
-//    return heap;
-
-// }
-
-// Sir's code
 
 Heap* heap_insert(Heap *heap, int32_t key) {
           assert (heap->size > 0 && heap->size+1 < HEAP_MAX_SIZE);
