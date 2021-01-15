@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
-#include "../PriorityQ_Heap.h"
+#include "../priorityqueue_heap.h"
 
 static void _swap_(Task *num1, Task *num2){
   Task temp;
