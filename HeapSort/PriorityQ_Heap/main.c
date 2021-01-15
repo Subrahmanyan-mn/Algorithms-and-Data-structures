@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "string.h"
-#include "../PriorityQ_Heap.h"
+#include "../priorityqueue_heap.h"
 
 
 
