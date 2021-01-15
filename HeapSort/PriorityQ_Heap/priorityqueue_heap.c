@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
-#include "../Headers/priorityqueue_heap.h"
+#include "../PriorityQ_Heap.h"
 
 static void _swap_(Task *num1, Task *num2){
   Task temp;
@@ -79,18 +79,6 @@ TasksHeap* tasksHeap_insert(TasksHeap *tasksheap, Task key) {
            tasksheap->data[loc] = key;
            return tasksheap;
 }
-
-// int8_t tasksHeap_test(TasksHeap *tasksheap){
-//    assert(tasksheap != NULL && tasksheap->size > 0);
-
-//    for(uint32_t child = tasksheap->size; child > 1; --child){
-//          if(tasksheap->data[child].priority > tasksheap->data[child/2].priority){
-//            return 0;
-//          }
-//    }
-   
-//    return 1;
-// }
 
 
 Task task_high_priority(TasksHeap *tasksheap) {
