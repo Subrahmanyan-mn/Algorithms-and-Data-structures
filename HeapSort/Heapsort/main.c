@@ -2,11 +2,8 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <assert.h>
-#include "../Headers/heap.h"
+#include "../heap.h"
 
-/* 1. Build maximum heap with required methods. It should support the behaviors like adding element,
-      getting maximum element, extracting maximum element, count number of elements and to check the 
-      method to test the heap order property.*/
 // Create new Heap and count the number of elements in it
 void test_newheap(){
    int32_t data[] = {0, 10, 19, 39, 40, 90, 70, 64, 26, 5, 80};
