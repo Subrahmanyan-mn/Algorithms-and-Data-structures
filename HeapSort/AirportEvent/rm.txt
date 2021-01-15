@@ -1,0 +1,3 @@
+
+An airport is developing a computer simulation of air-traffic control that handles events such as landings and takeoffs. Each event has a time stamp that denotes the time when the event will occur with additional information like, plane number, takeoff or landing. The simulation program needs to efficiently perform the following two fundamental operations: 1. Insert an event with a given time stamp, aircraft number, takeoff / landing (add a future event).
+2. Extract the event with smallest time stamp (that is, determine the next event to process). Design and implement suitable data structures that work efficiently in terms of time
