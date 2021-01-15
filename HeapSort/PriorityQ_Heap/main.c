@@ -3,13 +3,9 @@
 #include <stdio.h>
 #include <assert.h>
 #include "string.h"
-#include "../Headers/priorityqueue_heap.h"
+#include "../PriorityQ_Heap.h"
 
-/* 3. Build priority queue to handle real time tasks. Tasks can arrive at time. 
-      The attributes of tasks are task-id, priority, arrival time, execution time and deadline. 
-      Compute waiting time, turnaround time for each job. Check whether jobs are completed within 
-      the deadline specified.  It is treated that 10 is maximum priority and 1 is least priority.
-*/
+
 
 void test_tasksHeap() {
    Task data[6];
